@@ -1,1 +1,177 @@
-# Leon-Stolberg.github.io
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Leon Stolberg</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Inter",sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(135deg,#E6007E,#FFED00);
+color:white;
+}
+
+/* card */
+
+.card{
+width:27.5vh;
+padding:3vh 3vh;
+text-align:center;
+border-radius:2vh;
+background:rgba(255,255,255,0.12);
+backdrop-filter:blur(2vh);
+box-shadow:0 2vh 6vh rgba(0,0,0,0.3);
+}
+
+/* profile */
+
+.profile{
+width:11vh;
+height:11vh;
+border-radius:50%;
+object-fit:cover;
+border:.3vh solid white;
+margin-bottom:1.5vh;
+}
+
+/* text */
+
+h1{
+font-size:2.1vh;
+margin-bottom:.5vh;
+}
+
+.bio{
+font-size:1vh;
+opacity:0.85;
+margin-bottom:1.5vh;
+}
+
+/* links */
+
+.link{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:.5vh;
+text-decoration:none;
+color:white;
+padding:1vh;
+margin:1vh 0;
+border-radius:1vh;
+background:rgba(255,255,255,0.15);
+font-weight:500;
+transition:all .25s ease;
+}
+
+.link:hover{
+transform:translateY(-5px) scale(1.03);
+background:white;
+color:#222;
+box-shadow:0 1vh 3vh rgba(0,0,0,0.3);
+}
+
+/* icons */
+
+.icon{
+width:1.5vh;
+height:1.5vh;
+fill:currentColor;
+transition:transform .3s ease;
+}
+
+/* icon animation */
+
+.link:hover .icon{
+transform:rotate(12deg) scale(1.25);
+}
+
+/* footer */
+
+footer{
+margin-top:2vh;
+font-size:.75vh;
+opacity:0.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="Julis-Oberbayern-28 - Online.jpg" class="profile">
+
+<h1>Leon Stolberg</h1>
+<p class="bio">Links</p>
+
+<a class="link" href="https://instagram.com/leon_stolberg" target="_blank">
+
+<svg class="icon" viewBox="0 0 24 24">
+<path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 
+5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-1.8a1.2 
+1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/>
+</svg>
+
+Instagram
+
+</a>
+
+<a class="link" href="https://fdp-herrsching.de" target="_blank">
+
+<svg class="icon" viewBox="0 0 24 24">
+<path d="M12 2a10 10 0 100 20 10 10 0 
+000-20z"/>
+</svg>
+
+FDP Herrsching
+
+</a>
+
+<a class="link" href="https://julis-starnberg-landsberg.de" target="_blank">
+
+<svg class="icon" viewBox="0 0 24 24">
+<path d="M12 2l3 7h7l-5.5 
+4.2L18.5 21 12 16.8 5.5 
+21l2-7.8L2 9h7z"/>
+</svg>
+
+JuLis Starnberg-Landsberg
+
+</a>
+
+<a class="link" href="mailto:mailto@leon-stolberg.de">
+
+<svg class="icon" viewBox="0 0 24 24">
+<path d="M2 4h20v16H2V4zm10 
+9L4 6v12h16V6l-8 7z"/>
+</svg>
+
+E-Mail
+
+</a>
+
+<footer>
+© 2026 Leon Stolberg
+</footer>
+
+</div>
+
+</body>
+</html>
